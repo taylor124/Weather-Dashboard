@@ -1,0 +1,90 @@
+header{
+    background-color: rgb(49, 48, 48);
+    margin: none;
+    border: black solid 5px;
+}
+
+li::marker {
+    color: white;
+}
+
+header h3 {
+    font-size: 36px;
+    color: aliceblue;
+    text-align: center;
+    margin: none;
+}
+
+.inputAreaArea {
+    float: left;
+}
+
+.inputArea {
+background-color: lightgray;
+width: auto;
+border: 2px solid black;
+margin: 2.5px;
+padding: 1.5px;
+text-align: center;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin: 0 auto 30px auto;
+}
+
+.localSearchResults {
+    font-size: 15px;
+    width: auto;
+    margin: auto;
+    height: auto;
+    text-align: center;
+    color: black;
+    font: bold;
+}
+
+body {
+    margin: 15px;
+    height: auto;
+    background-color: none;
+}
+
+.weatherInfoArea {
+    float: right;
+    display: flex;
+    background-color: none;
+    margin: auto;
+    height: auto;
+    width: auto;
+    border: black solid 5px;
+}
+
+.weatherInfo {
+    height: auto;
+    background-color: white;
+}
+
+.Description, 
+.Humidity,
+.Tempature,
+.Feels-Like{
+    height: auto;
+    width: auto;
+    color: black;
+    font-size: 24px;
+    margin-left: 10px;
+    float: right;
+    margin-bottom: 10px;
+}
+
+div {
+    width: auto;
+    color: black;
+    font-size: 24px;
+    margin: 1px;
+    float: left;
+}
+
